@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Unikalny Tytuł Strony</title>
+    <meta charset="UTF-8">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div id="formularz">
+	<form>
+	
+		<div class="row mb-3">
+			<label for="inputFirstName3" class="col-sm-2 col-form-label">Imie</label>
+			<div class="col-sm-10">
+				<input class="form-control" id="inputFirstName3" placeholder="Wprowadź swoje imie">
+			</div>
+		</div>
+		
+		<div class="row mb-3">
+			<label for="inputLastName3" class="col-sm-2 col-form-label">Nazwisko</label>
+			<div class="col-sm-10">
+				<input class="form-control" id="inputLastName3" placeholder="Wprowadź swoje nazwisko">
+			</div>
+		</div>
+	
+		<div class="row mb-3">
+			<label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+			<div class="col-sm-10">
+				<input type="email" class="form-control" id="inputEmail3" placeholder="Wprowadź swój e-mail">
+			</div>
+		</div>
+		<fieldset class="row mb-3">
+		<legend class="col-form-label col-sm-2 pt-0">Płeć</legend>
+		<div class="col-sm-10">
+			<div class="form-check">
+				<input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+				<label class="form-check-label" for="gridRadios1">
+				Mężczyzna
+				</label>
+			</div>
+			<div class="form-check">
+				<input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+				<label class="form-check-label" for="gridRadios2">
+				Kobieta
+				</label>
+			</div>
+		</div>
+		
+		<div class="col-sm-10">
+		<label>Opis</label>
+		<textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Wprowadź opis"></textarea>
+		</div>
+		
+		<div class="col-sm-10">
+		<label>Wiek</label>
+		<input class="form-control" type="number" placeholder="Podaj swój wiek"></input>
+		</div>
+		
+		<div class="col-sm-10">
+		<label>Stan cywilny</label>
+		<select name="stan" id="stan" class="form-control">
+			<option value="opcja1">Panna/Kawaler</option>
+			<option value="opcja2">Wdowa/Wdowiec</option>
+			<option value="opcja3">Małżonek</option>
+		</select>
+		</div>
+		</fieldset>
+
+		<button type="reset" class="btn btn-secondary">Wyczyść</button>
+		<button type="submit" class="btn btn-primary">Wyślij</button>
+	</form>
+	</div>
+	
+</body>
+</html>

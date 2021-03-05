@@ -1,3 +1,10 @@
 body {
-	background-color: #440000;
+	background-color: #AA0000;
+}
+
+#formularz {
+	color: white;
+	width: 30%;
+	padding-top: 35px;
+	padding-left: 3%;
 }
